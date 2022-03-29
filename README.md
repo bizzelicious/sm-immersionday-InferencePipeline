@@ -21,7 +21,11 @@ When a batch transform job starts, SageMaker initializes compute instances and d
 
 1. Download content from Github to Notebook. In the SageMaker notebook, click on the **Launch Terminal in current SageMaker Image** icon. The kernel must be fully started (the circle on the right next to the Share button must be empty) to be able to click on the icon.
 ![image](https://static.us-east-1.prod.workshops.aws/public/efba5343-6e05-478c-96d9-9f5a094e69a3/static/prerequisites/image36.png)
+
+
 2. In the terminal, type the following command:
 `git clone https://github.com/bizzelicious/sm-immersionday-InferencePipeline.git`
+
+
 3. After completion of step 2 you will have **sm-immersionday-InferencePipeline** folder created in left panel of the studio. Start the lab by opening the folder and the file `linear_learner_multi_model_endpoint_inf_pipeline.ipynb`. Follow the lab instructions in the Notebook.
 
